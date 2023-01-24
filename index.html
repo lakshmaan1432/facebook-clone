@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0%;
+        }
+      body{
+        background-color: whitesmoke;
+      }  
+        .left{
+            width: 32%;
+            margin-top: 180px;
+            margin-left: 170px;
+            float: left;
+            padding: 10px;
+        }
+        .left h1{
+            font-size: 50px;
+            color: blue;
+           font-weight: 1000;
+        }
+        .left p{
+            font-size: 30px;
+        }
+
+        .right{
+            width: 360px;
+            height: 315px;
+            float: right;
+            margin-top: 125px;
+            margin-right:200px;
+            padding: 20px;
+            text-align: center;
+            background-color: white;
+            box-shadow:0px 0px 5px 5px rgba(128, 128, 128, 0.486);
+            border-radius: 10px;
+        }
+
+       input{
+        width:100%;
+        height: 50px;
+        margin-bottom: 5px;
+        border: solid 1px gray  ;
+        border-radius: 6px;
+        font-size: large;
+        padding-left: 10px;
+       }
+       #login{
+        margin-top: 10px;
+        background-color: #166fe5;
+        color: white;
+        font-weight: 1000;
+        border: none;
+       }
+
+       #create{
+        margin-top: 25px;
+        height: 50px;
+        width: 195px;
+        background-color: #42b72a;
+        color: white;
+        font-weight: 1000;
+        border: none;
+        border-radius: 10px;
+        font-size: medium;
+       }
+
+       hr{
+        border-color: #1c1e21;
+       }
+
+        
+    </style>
+</head>
+<style></style>
+
+<body>
+    <div class="left">
+        <h1>facebook</h1>
+        <p>Connect with friends and the world around you on Facebook.</p>
+    </div>
+
+    <div class="right">
+        <form>
+            <input type="text" placeholder="Email or phone number">
+            <br>
+            <br>
+            <input type="password" placeholder="Password">
+            <br>
+            <input id="login" type="submit" value="Log In">
+            <br>
+            <br>
+            <a href="#">Forgot Password?</a>
+            <br>
+            <br>
+            <hr>
+            <button id="create">Create new account</button>
+        </form>
+
+
+    </div>
+</body>
+
+</html>
